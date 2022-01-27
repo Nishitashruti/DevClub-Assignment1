@@ -49,8 +49,7 @@
             padding: 5px;
             background-color: #52054e;
             color: #ffffff;
-            font-size: 20px;
-            }
+            font-size: 20px;}
             #loader {
             position: absolute;
             left: 50%;
@@ -82,8 +81,22 @@
             }
 
             #myDiv {
-            display: none;
-            }
+            display: none;}
+
+            .float{
+            position:fixed;
+            width:50px;
+            height:44px;
+            bottom:40px;
+            right:40px;
+            background-color:#f55d5d;
+            color:#ffffff;
+            border-radius:50px;
+            text-align:center;
+            padding-top: 16px;
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size:20px;}
 
     </style>
     </head>
@@ -91,17 +104,18 @@
     <body align="left" onload="myFunction()">
     <div id="loader"></div>
     <div style="display:none;" id="myDiv" class="animate-bottom">
+    <a href="#Home" class="float">Home</a>
         
     <div class="style1">
         
                 <a id="Home"></a>
         <nav><h5>
             &nbsp;&nbsp;&nbsp;
-            <a href="#Home" style="color:#ffffff; font-size:25"><button class="click">Home</button></a>&nbsp;&nbsp;&nbsp;
             <a href="#Tips" style="color:#ffffff; font-size:25"><button class="click">Tips</button></a>&nbsp;&nbsp;&nbsp;
             <a href="#Symptoms" style="color:#ffffff; font-size:25"><button class="click">Symptoms</button></a>&nbsp;&nbsp;&nbsp;
             <a href="#FAQs" style="color:#ffffff; font-size:25"><button class="click">FAQs</button></a>&nbsp;&nbsp;&nbsp;
-            <a href="#Youtube" style="color:#ffffff; font-size:25"><button class="click">YouTube</button></a></h5>
+            <a href="#Youtube" style="color:#ffffff; font-size:25"><button class="click">YouTube</button></a>&nbsp;&nbsp;&nbsp;
+            <a href="#Maps" style="color:#ffffff; font-size:25"><button class="click">Maps</button></a></h5>
         </nav>
         <br><br><br><br><br>
         
@@ -125,7 +139,6 @@
                 <br><br>
             <center><h1>Tips</h1></center></font>
             <br><br>
-            
         <table class="style2" align="center" width="90%">
             <tr>
                 <td>
@@ -231,6 +244,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
             </center><br><br><br>
+            <a id="Maps"></a>
             <font color="#3a0942" size="70"><center>Maps(Hospitals near IITD)</center></font><br>
             <table class="style1" align="center" width="82%">
             <tr>
@@ -245,7 +259,7 @@
     <footer>
         <p>Made By: Nishita</p>
         <a href="mailto:ce1210534@civil.iitd.ac.in?subject=Query regarding Covid Guide&body=Hey! I visited your Website and had a query">
-        <button class="click">Query</button>
+        <button class="click">Mail your Query</button>
         </a>
       </footer>
      </div>
